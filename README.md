@@ -13,7 +13,6 @@ function createWindow(): void {
 }
 
 app.whenReady().then(createWindow)
-
 ```
 
 ## Utils
