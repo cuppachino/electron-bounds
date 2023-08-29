@@ -1,5 +1,11 @@
 # electron-bounds
 
+## 1.0.2
+
+### Patch Changes
+
+- 22e93b1: Fix README.md on npmjs
+
 ## 1.0.1
 
 ### Patch Changes
