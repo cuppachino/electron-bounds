@@ -93,7 +93,6 @@ export function getWindowStorePath(): string {
 /**
  * Check if the bounds are outside the screen.
  * @param bounds The bounds to check.
- * @returns `true` if the bounds are outside the screen, `false` otherwise.
  */
 export function isOffScreen({ x, y, width, height }: Bounds): boolean {
   const { width: screenWidth, height: screenHeight } =
