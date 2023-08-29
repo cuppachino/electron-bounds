@@ -29,7 +29,11 @@
   "author": "Jacob Bergholtz <cuppachino.dev@gmail.com>",
   "homepage": "https://github.com/cuppachino/electron-bounds#readme",
   "repository": {
-    "url": "https://github.com/cuppachino/electron-bounds"
+    "url": "https://github.com/cuppachino/electron-bounds",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/cuppachino/electron-bounds/issues"
   },
   "license": "MIT",
   "dependencies": {
