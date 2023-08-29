@@ -1,0 +1,37 @@
+{
+  "name": "electron-bounds",
+  "version": "0.0.1",
+  "description": "Persisted window bounds for Electron.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc --noEmit",
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "keywords": [
+    "electron",
+    "store",
+    "bounds",
+    "window",
+    "persist",
+    "save",
+    "yaml",
+    "center",
+    "resize",
+    "size"
+  ],
+  "author": "Jacob Bergholtz <cuppachino.dev@gmail.com>",
+  "homepage": "https://github.com/cuppachino/electron-bounds#readme",
+  "repository": {
+    "url": "https://github.com/cuppachino/electron-bounds"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "electron-store": "^8.1.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "electron": "^12.0.4",
+    "typescript": "^5.2.2"
+  }
+}
